@@ -1,4 +1,4 @@
-public class PhoneForFriends{
+public class FirstJavaExamples{
 
   public static void main(String[] args) {
 
@@ -31,6 +31,12 @@ public class PhoneForFriends{
 
     System.out.println("Total phone to buy? " + totalPhone);
 
+    String firstName = "Mike ";
+    String lastName  = "Tyson, Jordan, Jackson";
+
+    String fullName = firstName + lastName;
+
+    System.out.println("Full Name: " + fullName);
 
    }
 
